@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(132, 169, 236, 0.144);
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+}
+
+.Btn-list,
+.image-divs,
+.spacerdiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.line-divs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    height: 100%;
+}
+
+.preheader-divs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
